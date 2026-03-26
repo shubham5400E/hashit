@@ -61,7 +61,7 @@ export default function Login() {
         secureTextEntry
       />
       <TouchableOpacity
-        style={[styles.button, { backgroundColor: colors.tint }]}
+        style={[styles.button, { backgroundColor: "green" }]}
         onPress={handleLogin}
         disabled={loading}
       >
